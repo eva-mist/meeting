@@ -1,0 +1,149 @@
+body {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%
+	vertical-align: baseline;
+	background-color: #ffdacd;
+	line-height: 1;
+}
+
+header{
+	background: #094561;
+	padding: 1px 60px;
+	clear: both;
+}
+
+.same{
+	background: #094561;
+	line-height: 34px;
+	padding: 1px 80px 10px 80px;
+	text-align: center;
+}
+.same p{
+	color: #ffffff;
+	font-size: 120%;
+}
+.dame{
+	background: #6db4ff;
+	line-height: 34px;
+	padding: 1px 80px 10px 80px;
+	text-align: center;
+}
+nav a{
+	color: #ffffff;
+	font-variant: small-caps;
+	font-size: 100%;
+	font-family: verdana, Arial, "Times New Roman";
+	margin: 1%;
+	padding: 1% 6%;
+	width: 10%;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+}
+
+h1{
+	color: #ffffff;
+	font-variant: small-caps;
+	font-weight: bold;
+	font-family: "Aguafina Script";
+	font-size: 45px;
+	text-align: center;
+}
+
+h2, h3, h4{
+	color: #648880;
+}
+
+img{
+	display: inline-block;
+	width: 27vw;
+	height: 25vw;
+}
+
+.left{
+	float: left;
+	width: 30%;
+	margin-left: 3%;
+}
+footer{
+	background: #094561;
+	clear: both;
+}
+
+table{
+	border-collapse: separate;
+	border-spacing: 1px;
+	font-family: Arial, verdana, "Times New Roman";
+	font-size: 17px;
+	font-weight: bold;
+	line-height: 1.6;
+	width: 75%;
+	margin: auto;
+}
+.right{
+	clear: both;
+}
+td {
+	border: 1px solid #000000;
+	padding: 10px 15px;
+	background: #e4d1ff;
+}
+
+th{
+	background: #0945e8;
+	
+	border: 1px solid;
+	border-bottom-width: 4px;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+	padding: 10px 15px;
+}
+
+tr {
+	opacity: 0.7;
+}
+
+tr:hover {
+	opacity: 1;
+}
+
+button{
+	background-color: #094561;
+	color: #ffffff;
+	line-height: 4vw;
+}
+.col-1-2, aside{
+	float: right;
+	vertical-align: top;
+	padding-left: 1%;
+}
+
+.speaker-info img{
+	width: 11vw;
+	height: 10vw;
+}
+.col-1-1{
+	float: left;
+	font-size: 110%;
+	padding-right:5px; 
+}
+label{
+	cursor: pointer;
+	font-weight: 400;
+	text-align: left;
+}
+
+form{
+	width: 55%;
+	height: 50%;
+
+}
+.btn{
+	width: 8vw;
+	height: 4vw;
+	text-align: center;
+	background-color: #094561;
+	margin-left: 20%;
+}
